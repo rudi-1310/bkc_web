@@ -1,0 +1,89 @@
+@media screen and (min-width: 1200px) {
+    .hero {
+        height: 75vh;
+    }
+
+    .hero #video-bg {
+        object-position: 0 5vw;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .hero #video-bg {
+        object-position: 0 15vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #takeover-nav .nav-menu {
+        min-height: 500px;
+    }
+
+    #takeover-nav .nav-menu a {
+        color: var(--black);
+    }
+
+    #takeover-nav .nav-menu a:hover {
+        color: var(--white);
+    }
+
+    #takeover-nav .nav-contact {
+        min-height: 600px;
+    }
+
+    #takeover-nav .nav-contact .nav-title {
+        font-size: 2.5em;
+    }
+    .section2-para {
+        padding-inline: 70px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header .swoosh {
+        width: 165px;
+        height: 35px;
+        top: 10px;
+    }
+
+    .sticky-nav {
+        top: 10px;
+    }
+
+    .sticky-nav .logo {
+        width: 150px;
+        height: 35px;
+    }
+
+    .sticky-nav #nav-btn {
+        width: 40px;
+    }
+
+    #takeover-nav .contact-items {
+        font-size: 1em;
+    }
+
+    .hero {
+        min-height: 500px!important;
+        height: 500px!important;
+    }
+
+    .hero-title {
+        font-size: 12vw;
+    }
+
+    #video-bg {
+        object-position: 0 30vw;
+    }
+    section.two{
+        font-size: 1.1em!important;
+    }
+    .section2-para {
+        padding: 20px!important;
+       
+    }
+    .three img{
+        height: 50%!important;
+        width: 100%!important;
+    }
+}

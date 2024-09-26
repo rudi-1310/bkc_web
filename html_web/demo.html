@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    input a:
+    <input type="text" name="a" id="a">
+    input b: <input type="text" name="b" id="b">
+    <button type="button" onclick="calculateSum()">Submit</button>
+    <div class="ans"></div>
+
+</body>
+<script>
+    function calculateSum() {
+        let a = parseFloat(document.getElementById('a').value);
+        let b = parseFloat(document.getElementById('b').value);
+        let result = a + b;
+        console.log(result);
+        document.querySelector('.ans').innerHTML = `<h3>Sum: ${result}</h3>`;
+    }
+</script>
+
+</html>
